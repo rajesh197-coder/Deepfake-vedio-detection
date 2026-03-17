@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+            background-image: url('{{ url_for('static', filename='inp.jpg') }}');
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            margin: auto;
+            width: 50%;
+            margin-top: 15%;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #00f;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #000;
+            font-size: 1.2em;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        a:hover {
+            background-color: #00f;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Deepfake Detection using Deep Learning and Flask</h1>
+        <a href="{{ url_for('upload_file') }}">upload</a> or 
+        <a href="{{ url_for('contact') }}">Contact Us</a>
+    </div>
+</body>
+</html>
