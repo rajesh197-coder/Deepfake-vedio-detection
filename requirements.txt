@@ -4,7 +4,6 @@ cycler
 distlib
 dlib
 et-xmlfile
-face-recognition
 face-recognition-models
 filelock
 Flask
@@ -18,7 +17,6 @@ matplotlib
 networkx
 nltk
 numpy
-opencv-python
 openpyxl
 pandas
 Pillow
@@ -34,8 +32,6 @@ scipy
 six
 threadpoolctl
 tifffile
-torch
-torchvision
 tqdm
 typing-extensions
 virtualenv
