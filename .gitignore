@@ -1,5 +1,6 @@
 dataset/
-checkpoint/
+data files/
 *.pt
-*.h5
-*.ckpt
+checkpoint/
+*.mp4
+*.avi
